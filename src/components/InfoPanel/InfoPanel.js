@@ -1,7 +1,5 @@
 import styles from '../../styles/styles.module.css';
-import InfoIncomes from './InfoIncomes';
-import InfoExpenses from './InfoExpenses';
-import InfoPocket from './InfoPocket';
+import InfoCard from './InfoCard';
 
 function InfoPanel() {
   return (
@@ -9,10 +7,10 @@ function InfoPanel() {
 		<div className={styles.info}>
 		  <h2 className={styles.info__header}>Your money management</h2>
 		</div>
-		<div className={styles.card}>
-		  <InfoIncomes/>
-		  <InfoExpenses/>
-		  <InfoPocket/>
+		<div className={styles.cards}>
+		  <InfoCard cardName='Incomes' />
+		  <InfoCard cardName='Expenses'/>
+		  <InfoCard cardName='Balance'/>
 		</div>
 	  </div>
   )
