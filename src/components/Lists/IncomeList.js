@@ -1,9 +1,12 @@
 import TableHeader from '../Table/TableHeader';
+import TableRow from '../Table/TableRow';
 
-function IncomeList(){
-  return(
-	  <TableHeader/>
-
+function IncomeList() {
+  return (
+	  <table>
+		<TableHeader/>
+		<TableRow/>
+	  </table>
   )
 }
 

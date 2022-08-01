@@ -2,12 +2,12 @@ import styles from '../../styles/styles.module.css';
 import InfoCardHeader from './InfoCardHeader';
 import InfoCardBody from './InfoCardBody';
 
-function InfoCard() {
+function InfoCard({cardName, month, value}) {
   return (
 
 		<div className={styles.card}>
-		  <InfoCardHeader cardName='Incomes'/>
-		  <InfoCardBody cardName='Incomes' month='Styczeń' value='1000'/>
+		  <InfoCardHeader cardName={cardName}/>
+		  <InfoCardBody cardName={cardName} month={month} value={value}/>
 		</div>
 
   )

@@ -1,5 +1,5 @@
 import TableHeader from '../Table/TableHeader';
-import TableRow from '../Table/TableItem';
+import TableRow from '../Table/TableRow';
 
 function ExpenseList(){
   return(
