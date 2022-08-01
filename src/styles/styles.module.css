@@ -91,7 +91,39 @@ html {
     text-decoration: none;
     flex-wrap: wrap;
 }
+/*DASHBOARD styles*/
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard__header{
 
+}
+.dashboard__header_head{
+    font-size: 1.8rem;
+}
+.dashboard__header_text{
+
+}
+.dashboard__content{
+
+}
+.dashboard__content_text{
+
+}
+.dashboard__buttons{
+
+}
+
+/*BUTTON styles*/
+.button{
+
+}
+.button__link{
+
+}
 /*INFO styles*/
 .info {
     display: flex;

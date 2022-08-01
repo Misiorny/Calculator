@@ -5,11 +5,15 @@ import EditionPanel from '../EditionPanel/EditionPanel';
 import DetailsPanel from '../DetaislPanel/DetailsPanel';
 import IncomesDetails from '../DetaislPanel/IncomesDetails';
 import ExpensesDetails from '../DetaislPanel/ExpensesDetails';
+import Dashboard from '../Dashboard/Dashboard';
+import RegistrationPanel from '../LoginPanel/RegistrationPanel';
 
 function InfoPanel() {
   return (
 	  <Routes>
-		<Route path="/" element={<LoginPanel/>}/>
+		<Route path="/" element={<Dashboard/>}/>
+		<Route path="/login" element={<LoginPanel/>}/>
+		<Route path="/register" element={<RegistrationPanel/>}/>
 		<Route path="/info" element={<InfoData/>}/>
 		<Route path='/edit' element={<EditionPanel/>}/>
 		<Route path='/detail' element={<DetailsPanel/>}/>
