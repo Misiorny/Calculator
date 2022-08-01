@@ -5,20 +5,20 @@ function Menu() {
 	  <nav className={styles.navbar}>
 		<ul className={styles.navbar__list}>
 		  <li className={styles.navbar__item}>
-			<a href="/" className={styles.navbar__link}>Edition</a>
+			<a href="/edit" className={styles.navbar__link}>Edition</a>
 		  </li>
 		  <li className={styles.navbar__item}>
-			<a href="/" className={styles.navbar__link}>Info</a>
+			<a href="/info" className={styles.navbar__link}>Info</a>
 		  </li>
 		  <ul className={styles.navbar__list_double}>
 			<li className={styles.navbar__item_full}>
-			  <a className={styles.navbar__link_double} href="/">Details</a>
+			  <a className={styles.navbar__link_double} href="/detail">Details</a>
 			</li>
 			<li className={styles.navbar__item_double}>
-			  <a className={styles.navbar__link_double} href="/">Income</a>
+			  <a className={styles.navbar__link_double} href="/detail/incomes">Income</a>
 			</li>
 			<li className={styles.navbar__item_double}>
-			  <a className={styles.navbar__link_double} href="/">Expenses</a>
+			  <a className={styles.navbar__link_double} href="/detail/expenses">Expenses</a>
 			</li>
 		  </ul>
 		</ul>
