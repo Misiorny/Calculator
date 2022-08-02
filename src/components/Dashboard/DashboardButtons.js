@@ -4,8 +4,8 @@ import Button from '../Button/Button';
 function DashboardButtons() {
   return (
 	  <div className={styles.dashboard__buttons}>
-		<Button name='Login'/>
-		<Button name='Register'/>
+		<Button name='Login' to='/login'/>
+		<Button name='Register' to='/register'/>
 	  </div>
   )
 }

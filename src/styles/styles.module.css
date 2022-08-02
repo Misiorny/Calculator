@@ -91,39 +91,75 @@ html {
     text-decoration: none;
     flex-wrap: wrap;
 }
+
 /*DASHBOARD styles*/
-.dashboard{
+.dashboard {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.dashboard__header{
 
+.dashboard__header {
 }
-.dashboard__header_head{
+
+.dashboard__header_head {
     font-size: 1.8rem;
 }
-.dashboard__header_text{
 
+.dashboard__header_text {
 }
-.dashboard__content{
 
+.dashboard__content {
 }
-.dashboard__content_text{
 
+.dashboard__content_text {
 }
-.dashboard__buttons{
 
+.dashboard__buttons {
 }
 
 /*BUTTON styles*/
-.button{
-
+.button {
 }
-.button__link{
 
+.button__link {
 }
+
+/*FORM styles*/
+.email {
+}
+
+.email__label {
+}
+
+.email__input {
+}
+.password {
+}
+
+.password__label {
+}
+
+.password__input {
+}
+.name {
+}
+
+.name__label {
+}
+
+.name__input {
+}
+.surname {
+}
+
+.surname__label {
+}
+
+.surname__input {
+}
+
 /*INFO styles*/
 .info {
     display: flex;
