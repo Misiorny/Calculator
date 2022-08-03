@@ -159,7 +159,29 @@ html {
 
 .surname__input {
 }
+.street {
+}
 
+.street__label {
+}
+
+.street__input {
+}
+.street__input_name {
+}
+.street__input_number {
+}
+.street__input_local {
+}
+.code{
+
+}
+.code__label{
+
+}
+.code__input{
+
+}
 /*INFO styles*/
 .info {
     display: flex;
