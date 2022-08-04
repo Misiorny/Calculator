@@ -135,6 +135,7 @@ html {
 
 .email__input {
 }
+
 .password {
 }
 
@@ -143,6 +144,7 @@ html {
 
 .password__input {
 }
+
 .name {
 }
 
@@ -151,6 +153,7 @@ html {
 
 .name__input {
 }
+
 .surname {
 }
 
@@ -159,6 +162,7 @@ html {
 
 .surname__input {
 }
+
 .street {
 }
 
@@ -167,21 +171,25 @@ html {
 
 .street__input {
 }
+
 .street__input_name {
 }
+
 .street__input_number {
 }
+
 .street__input_local {
 }
-.code{
 
+.code {
 }
-.code__label{
 
+.code__label {
 }
-.code__input{
 
+.code__input {
 }
+
 /*INFO styles*/
 .info {
     display: flex;
